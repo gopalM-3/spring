@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class HelloServiceEn implements HelloService {
 
     public String sayHello(String name) {
-        return "Hello" + name + "!";
+        return "Hello " + name + "!";
     }
 
 }

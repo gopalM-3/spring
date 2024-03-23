@@ -7,11 +7,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class Person {
 
-    private HelloService helloService;
-
     @Autowired
 //    @Qualifier("es")
-    public Person(HelloService helloService) { this.helloService = helloService; }
+    private HelloService helloService;
 
     public void sayHello(String name) {
         String message = helloService.sayHello(name);
