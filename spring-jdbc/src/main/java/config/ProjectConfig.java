@@ -17,7 +17,7 @@ public class ProjectConfig {
         var dataSource = new DriverManagerDataSource();
         dataSource.setUrl("jdbc:postgresql://localhost/JDBC");
         dataSource.setUsername("postgres");
-        dataSource.setPassword("apollo");
+        dataSource.setPassword("*****"); // enter password
 
         return dataSource;
     }
